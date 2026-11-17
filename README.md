@@ -28,7 +28,7 @@
 
 要求 EchoMusic ≥ 2.3.2，需要有对应音质权限的酷狗账号。
 
-1. 把本仓库放到 `%APPDATA%\echo-music\plugins\Claude-Music-Downloader\`
+1. 到 [Releases](https://github.com/LW-Arqiu1shz/Claude-Music-Downloader/releases/latest) 下载 `Claude-Music-Downloader-版本号.zip`，解压到 `%APPDATA%\echo-music\plugins\`，得到 `plugins\Claude-Music-Downloader\` 文件夹（里面直接就是 `manifest.json`）
 2. 「打开保存文件夹」和均衡版合并文件要用到 `bin\open-folder.exe`。它就是系统的 `cmd.exe`，版权属于微软，所以仓库里没有放。在 PowerShell 里运行下面的命令复制一份：
 
    ```powershell
