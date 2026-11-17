@@ -1,0 +1,19 @@
+{
+  "id": "Claude-Music-Downloader",
+  "name": "小克音乐下载器",
+  "version": "1.2.3",
+  "description": "现在可以下载当前在听的歌啦~\n配合「小克音量均衡器」还可以下载音量均衡版哦！",
+  "author": "Claude & Arqiu-owo",
+  "icon": "icon.png",
+  "main": "index.js",
+  "capabilities": {
+    "kugouApi": true,
+    "kugouVerification": true,
+    "localFiles": true,
+    "downloads": true,
+    "process": true
+  },
+  "requires": {
+    "echoMusicVersion": ">=2.3.2"
+  }
+}
